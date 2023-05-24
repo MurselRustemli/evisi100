@@ -1,0 +1,182 @@
+header {
+  // Telefon ikonu olan hisse
+  // |
+  // |
+  // |
+  // |
+  // V
+  .header-phone-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007878;
+    height: 50px;
+    .header-phone-number-all {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .header-phone-number-phone {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 100%;
+        gap: 7px;
+        i {
+          color: #ffffff;
+          font-size: 22px;
+        }
+        p {
+          font-family: sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          color: rgba(255, 255, 255, 0.9);
+        }
+      }
+      .header-phone-number-termsofuse {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        p {
+          font-family: sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          color: rgba(255, 255, 255, 0.75);
+        }
+      }
+    }
+  }
+  // Navbar hisse
+  // |
+  // |
+  // |
+  // |
+  // V
+  nav {
+    .navbar-snobella-search {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 40px;
+      gap: 20px;
+      .navbar-snobella-search-snobella {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        color: #000000;
+      }
+      .navbar-snobella-search-search {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #f7f9fc;
+        border-radius: 8px;
+        height: 40px;
+        width: 30%;
+        i {
+          color: rgba(39, 49, 66, 0.75);
+        }
+        p {
+          font-family: sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          color: #aaaaaa;
+        }
+      }
+      .navbar-snobella-search-singup {
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .navbar-snobella-search-singup-singup {
+          display: flex;
+          max-width: 100%;
+          gap: 5px;
+          i {
+            color: #273142e5;
+          }
+          P {
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            color: #2e2e2e;
+          }
+        }
+        .navbar-snobella-search-singup-wishlist {
+          display: flex;
+          max-width: 100%;
+          gap: 5px;
+          i {
+            color: #273142e5;
+          }
+          P {
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            color: #2e2e2e;
+          }
+        }
+        .navbar-snobella-search-singup-basket {
+          display: flex;
+          max-width: 100%;
+          gap: 5px;
+          i {
+            color: #273142e5;
+          }
+          P {
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            color: #2e2e2e;
+          }
+        }
+      }
+    }
+    .navbar-snobella-tags {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+      width: 70%;
+      margin-bottom: 20px;
+      a {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #273142;
+      }
+    }
+  }
+  // Navbar hisse-responsivlik
+  // |
+  // |
+  // |
+  // |
+  // V
+  @media screen and (max-width: 768px) {
+    nav {
+      .navbar-snobella-search {
+        .navbar-snobella-search-snobella {
+          display: none;
+        }
+        .navbar-snobella-search-search {
+          width: 100%;
+        }
+        .navbar-snobella-search-singup {
+          display: none;
+        }
+      }
+      .navbar-snobella-tags {
+        display: none;
+      }
+    }
+  }
+}

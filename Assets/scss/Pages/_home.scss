@@ -1,0 +1,584 @@
+main {
+  // PRODUCTS SECTIONU
+  // |
+  // |
+  // |
+  // |
+  // V
+  #section-products {
+    background: #ffe2e0;
+    .section-products-all {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // PRODUCTS SECTIONUN SOL TEREFI
+      // |
+      // |
+      // |
+      // |
+      // V
+      .section-products-left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        h3 {
+          font-family: sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          color: #df4244;
+        }
+        h1 {
+          font-family: sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 40px;
+          color: #212121;
+        }
+        p {
+          margin-top: 10px;
+          font-family: sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          color: rgba(33, 33, 33, 0.75);
+        }
+        button {
+          margin-top: 48px;
+          height: 52px;
+          width: 192px;
+          color: white;
+          background: #206363;
+          border-radius: 8px;
+          border: none;
+        }
+        .section-products-left-daireler {
+          display: flex;
+          margin-top: 128px;
+          gap: 10px;
+          .section-products-left-daire {
+            height: 12px;
+            width: 12px;
+            border-radius: 50%;
+            background: rgba(32, 99, 99, 0.25);
+          }
+          .section-products-left-ikidaire {
+            height: 12px;
+            width: 24px;
+            border-radius: 20px;
+            background: #df4244;
+          }
+        }
+      }
+      // PRODUCTS SECTIONUN SAQ TEREFI
+      // |
+      // |
+      // |
+      // |
+      // V
+      .section-products-right {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+  // PRODUCTS SECTIONUN RESPONSIVLIYI
+  // |
+  // |
+  // |
+  // |
+  // V
+  @media screen and (max-width: 768px) {
+    #section-products {
+      background: #ffe2e0;
+      .section-products-all {
+        flex-direction: column;
+        .section-products-left {
+          h3 {
+            margin-top: 50px;
+          }
+        }
+      }
+    }
+  }
+  // GUARANTEED SECTIONU
+  // |
+  // |
+  // |
+  // |
+  // V
+  #section-guaranteed {
+    background: #f7f7f7;
+    .section-guaranteed-all {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .section-guaranteed-guaranteed {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 144px;
+        gap: 7px;
+        P {
+          font-family: sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          color: #000000;
+        }
+        i {
+          color: #007878;
+          font-size: 25px;
+        }
+      }
+      .section-guaranteed-donotcomeback {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        width: 100%;
+        height: 144px;
+        P {
+          font-family: sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          color: #000000;
+        }
+        i {
+          color: #007878;
+          font-size: 25px;
+        }
+      }
+      .section-guaranteed-safeandsecure {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        width: 100%;
+        height: 144px;
+        P {
+          font-family: sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          color: #000000;
+        }
+        i {
+          color: #007878;
+          font-size: 25px;
+        }
+      }
+      .section-guaranteed-payment {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        width: 100%;
+        height: 144px;
+        P {
+          font-family: sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          color: #000000;
+        }
+        i {
+          color: #007878;
+          font-size: 25px;
+        }
+      }
+    }
+  }
+  // GUARANTEED SECTIONUN RESPONSIVLIYI
+  // |
+  // |
+  // |
+  // |
+  // V
+  @media screen and (max-width: 768px) {
+    #section-guaranteed {
+      .section-guaranteed-all {
+        flex-direction: column;
+      }
+    }
+  }
+  // BAGS SECTIONU
+  // |
+  // |
+  // |
+  // |
+  // V
+  #section-bags {
+    margin-top: 50px;
+    .section-bags-all {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      .section-bags-shoulder {
+        height: 162px;
+        border-radius: 8px;
+        width: 100%;
+        background: #f5f5f5;
+        position: relative;
+        p {
+          position: absolute;
+          top: 20px;
+          left: 10px;
+          font-family: sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          color: #000000;
+        }
+        img {
+          position: absolute;
+          bottom: 0px;
+          right: 0px;
+          height: auto;
+          width: 120px;
+        }
+      }
+      .section-bags-hand {
+        height: 162px;
+        border-radius: 8px;
+        width: 100%;
+        background: #f5f5f5;
+        position: relative;
+        p {
+          position: absolute;
+          top: 20px;
+          left: 10px;
+          font-family: sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          color: #000000;
+        }
+        img {
+          position: absolute;
+          bottom: 0px;
+          right: 0px;
+          height: auto;
+          width: 120px;
+        }
+      }
+      .section-bags-back {
+        height: 162px;
+        border-radius: 8px;
+        width: 100%;
+        background: #f5f5f5;
+        position: relative;
+        p {
+          position: absolute;
+          top: 20px;
+          left: 10px;
+          font-family: sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          color: #000000;
+        }
+        img {
+          position: absolute;
+          bottom: 0px;
+          right: 0px;
+          height: auto;
+          width: 120px;
+        }
+      }
+      .section-bags-evenings {
+        height: 162px;
+        border-radius: 8px;
+        width: 100%;
+        background: #f5f5f5;
+        position: relative;
+        p {
+          position: absolute;
+          top: 20px;
+          left: 10px;
+          font-family: sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          color: #000000;
+        }
+        img {
+          position: absolute;
+          bottom: 0px;
+          right: 0px;
+          height: auto;
+          width: 120px;
+        }
+      }
+    }
+  }
+  // BAGS SECTIONUN RESPONSIVLIYI
+  // |
+  // |
+  // |
+  // |
+  // V
+  @media screen and (max-width: 768px) {
+    #section-bags {
+      .section-bags-all {
+        flex-direction: column;
+      }
+    }
+  }
+  // FEATURED SECTIONU
+  // |
+  // |
+  // |
+  // |
+  // V
+  #section-featured {
+    .section-featured-all {
+      .section-featured-featured {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1 {
+          font-family: sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 32px;
+          color: #000000;
+        }
+        p {
+          font-family: sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          color: #000000;
+        }
+      }
+      .section-featured-bags {
+        margin-top: 100px;
+        display: flex;
+        // FEATURED SECTIONU - SARI CANTA
+        // |
+        // |
+        // |
+        // |
+        // V
+        .section-featured-yellowbag {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          width: 100%;
+          // height: 508px;
+          .section-featured-yellowbag-hearth {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            button {
+              width: 79px;
+              height: 32px;
+              background: #43d167;
+              color: white;
+              border: none;
+              border-radius: 8px;
+            }
+            i {
+              color: #df4244;
+              font-size: 22px;
+            }
+          }
+          img {
+          }
+          .section-featured-yellowbag-stars {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .section-featured-yellowbag-stars-stars {
+              i {
+                color: #ffdd45;
+              }
+            }
+            .section-featured-yellowbag-stars-shoulderbag {
+              font-family: sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              color: #000000;
+            }
+            p {
+              font-family: sans-serif;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 20px;
+              line-height: 170%;
+              color: #f75145;
+            }
+            button {
+              height: 48px;
+              width: 80%;
+              color: #212121;
+              background-color: white;
+              border: 1px solid #212121;
+              border-radius: 8px;
+            }
+          }
+        }
+        // FEATURED SECTIONU - ROZVU CANTA
+        // |
+        // |
+        // |
+        // |
+        // V
+        .section-featured-pinkbag {
+          width: 100%;
+          // height: 508px;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          .section-featured-pinkbag-hearth {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            button {
+              width: 79px;
+              height: 32px;
+              background: #df4244;
+              color: white;
+              border: none;
+              border-radius: 8px;
+            }
+            i {
+              color: #df4244;
+
+              font-size: 22px;
+            }
+          }
+          img {
+          }
+          .section-featured-pinkbag-stars {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 10px;
+            .section-featured-pinkbag-stars-stars {
+              i {
+                color: #ffdd45;
+              }
+            }
+            .section-featured-pinkbag-stars-shoulderbag {
+              font-family: sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              color: #000000;
+            }
+            p {
+              font-family: sans-serif;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 20px;
+              line-height: 170%;
+              color: #f75145;
+            }
+            button {
+              height: 48px;
+              width: 80%;
+              color: #212121;
+              border: 1px solid #212121;
+              background-color: white;
+              border-radius: 8px;
+            }
+          }
+        }
+        // FEATURED SECTIONU - QEHVEYI CANTA
+        // |
+        // |
+        // |
+        // |
+        // V
+        .section-featured-brownbag {
+          width: 100%;
+          // height: 508px;
+          display: flex;
+          flex-direction: column;
+          gap: 22px;
+          .section-featured-brownbag-hearth {
+            width: 80%;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            i {
+              color: #df4244;
+              font-size: 22px;
+            }
+          }
+          img {
+            height: auto;
+            width: 100%;
+          }
+          .section-featured-brownbag-stars {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 10px;
+            .section-featured-brownbag-stars-stars {
+              i {
+                color: #ffdd45;
+              }
+            }
+            .section-featured-brownbag-stars-shoulderbag {
+              font-family: sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              color: #000000;
+            }
+            p {
+              font-family: sans-serif;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 20px;
+              line-height: 170%;
+              color: #f75145;
+            }
+            button {
+              height: 48px;
+              width: 80%;
+              color: #212121;
+              border: 1px solid #212121;
+              background-color: white;
+              border-radius: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #section-featured {
+      .section-featured-all {
+        .section-featured-bags {
+          margin-top: 100px;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,202 @@
+footer {
+  background-color: #f7f7f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  .footer-all {
+    .snobella {
+      margin-top: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h1 {
+        font-family: sans-serif;
+      }
+      .snobella-search {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5px;
+        height: 35px;
+        width: 50%;
+        border-radius: 8px;
+        border: 1px solid #cbcbce;
+        p {
+          font-family: sans-serif;
+          font-size: 13px;
+          margin-left: 10px;
+          color: #aaaaaa;
+        }
+        i {
+          margin-right: 10px;
+        }
+      }
+    }
+    .message {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      .message-left {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        p {
+          color: rgba(33, 33, 33, 0.75);
+          font-family: sans-serif;
+          font-size: 15px;
+        }
+        .message-left-mektub {
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          gap: 10px;
+          p {
+            font-family: sans-serif;
+          }
+          i {
+            font-size: 15px;
+          }
+        }
+        .message-left-telefon {
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          gap: 10px;
+          p {
+            font-family: sans-serif;
+          }
+          i {
+            font-size: 15px;
+          }
+        }
+        .message-left-send {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          height: 48px;
+          width: 179px;
+          border-radius: 8px;
+          border: solid;
+          border: 1px solid #171717;
+          opacity: 0.8;
+          p {
+            font-family: sans-serif;
+          }
+          i {
+            font-size: 15px;
+          }
+        }
+      }
+      .message-right {
+        display: flex;
+        gap: 20px;
+        .message-right-shop {
+          p {
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            color: #212121;
+          }
+          ul {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            li {
+              font-family: sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              color: rgba(33, 33, 33, 0.75);
+            }
+          }
+        }
+        .message-right-company {
+          p {
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            color: #212121;
+          }
+          ul {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            li {
+              font-family: sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              color: rgba(33, 33, 33, 0.75);
+            }
+          }
+        }
+        .message-right-help {
+          p {
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            color: #212121;
+          }
+          ul {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            li {
+              font-family: sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              color: rgba(33, 33, 33, 0.75);
+            }
+          }
+        }
+      }
+    }
+    .reserved {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 72px;
+      width: 100%;
+      border-radius: 0px;
+      background-color: white;
+
+      p {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(33, 33, 33, 0.75);
+      }
+      .reserved-ikon {
+        display: flex;
+        gap: 20px;
+        i {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  footer {
+    background-color: #f7f7f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    .footer-all {
+      .message {
+        flex-direction: column;
+      }
+    }
+  }
+}
